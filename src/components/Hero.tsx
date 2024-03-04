@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Button from "./Button";
 import FullPage from "./FullPage";
 import Image from "next/image";
+import H1 from "./H1";
 
 export default function Hero() {
 	return (
@@ -51,19 +52,7 @@ export default function Hero() {
 						</motion.ul>
 					</nav>
 					<div className="mt-[128px] flex flex-col gap-[20px] items-center">
-						<motion.h1
-							initial={{ translateY: 100, opacity: 0 }}
-							animate={{ translateY: 0, opacity: 1 }}
-							transition={{
-								type: "spring",
-								stiffness: 100,
-								damping: 20,
-								delay: 0.6,
-							}}
-							className="font-serif text-6xl md:text-8xl uppercase text-center whitespace-normal md:whitespace-nowrap tracking-wide"
-						>
-							Miód malina
-						</motion.h1>
+						<H1 text="Miód malina" />
 						<motion.h2
 							initial={{ translateY: 100, opacity: 0 }}
 							animate={{ translateY: 0, opacity: 1 }}

@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="pl">
-			<body className={sourceSans3.className + bodoni.className}>{children}</body>
+			<body className={sourceSans3.className + bodoni.className + "scroll-smooth"}>{children}</body>
 		</html>
 	);
 }
