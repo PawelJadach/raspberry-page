@@ -1,9 +1,9 @@
 import { ReactNode } from "react";
 
 type FullPageProps = {
-  children: ReactNode;
+	children: ReactNode;
 };
 
 export default function FullPage({ children }: FullPageProps) {
-  return <div className="h-screen">{children}</div>;
+	return <div className="h-screen">{children}</div>;
 }
