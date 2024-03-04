@@ -20,7 +20,7 @@ export default function Hero() {
 					<Image alt="Hero image" fill={true} src="/hero-image.jpeg" />
 				</motion.div>
 
-				<div className="absolute top-[64px] left-1/2 translate-x-[-50%] z-10 flex flex-col items-center text-white">
+				<div className="absolute top-[64px] left-1/2 translate-x-[-50%] w-full z-10 flex flex-col items-center text-white">
 					<motion.div
 						initial={{ scale: 0, opacity: 0 }}
 						animate={{ opacity: 1, scale: 1 }}
@@ -60,7 +60,7 @@ export default function Hero() {
 								damping: 20,
 								delay: 0.6,
 							}}
-							className="font-serif text-8xl uppercase whitespace-nowrap tracking-wide"
+							className="font-serif text-6xl md:text-8xl uppercase text-center whitespace-normal md:whitespace-nowrap tracking-wide"
 						>
 							Miód malina
 						</motion.h1>
@@ -73,7 +73,7 @@ export default function Hero() {
 								damping: 20,
 								delay: 0.7,
 							}}
-							className="text-[24px] font-light tracking-widest"
+							className="text-[24px] font-semibold tracking-widest"
 						>
 							OSADA ISTEBNA
 						</motion.h2>

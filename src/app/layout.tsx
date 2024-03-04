@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Source_Sans_3, Bodoni_Moda, Libre_Bodoni } from "next/font/google";
+import { Source_Sans_3, Libre_Bodoni } from "next/font/google";
 import "./globals.css";
 
 const sourceSans3 = Source_Sans_3({ subsets: ["latin"] });

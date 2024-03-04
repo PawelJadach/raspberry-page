@@ -10,6 +10,7 @@ const config: Config = {
 			},
 			colors: {
 				yellow: "#D8AE5E",
+				yellowHover: "#B68C3C",
 			},
 		},
 	},
