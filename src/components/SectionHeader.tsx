@@ -19,6 +19,7 @@ export default function SectionHeader({ header, subheader }: SectionHeaderProps)
 					damping: 20,
 					delay: 0.6,
 				}}
+				viewport={{ once: true }}
 				className="font-serif text-6xl md:text-8xl uppercase text-center whitespace-normal md:whitespace-nowrap tracking-wide"
 			>
 				{header}
@@ -32,6 +33,7 @@ export default function SectionHeader({ header, subheader }: SectionHeaderProps)
 					damping: 20,
 					delay: 0.8,
 				}}
+				viewport={{ once: true }}
 				className="text-[16px] uppercase text-center whitespace-normal md:whitespace-nowrap tracking-wide mt-2"
 			>
 				{subheader}
@@ -43,6 +45,7 @@ export default function SectionHeader({ header, subheader }: SectionHeaderProps)
 					damping: 20,
 					delay: 1,
 				}}
+				viewport={{ once: true }}
 				initial={{ translateX: 500, opacity: 0 }}
 				whileInView={{ translateX: 0, opacity: 1 }}
 				className="w-[120px] h-[1px] bg-yellow mx-auto mt-8"

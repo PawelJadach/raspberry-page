@@ -17,6 +17,7 @@ export default function H2({ text }: H2Props) {
 				damping: 20,
 				delay: 0.6,
 			}}
+			viewport={{ once: true }}
 			className="text-xl md:text-xl uppercase text-center whitespace-normal md:whitespace-nowrap tracking-wide"
 		>
 			{text}
