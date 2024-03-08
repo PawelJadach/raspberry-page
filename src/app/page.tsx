@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Attractions from "@/components/Attractions";
+import Facilities from "@/components/Facilities";
 import Hero from "@/components/Hero";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
 			<Hero />
 			<About />
 			<Attractions />
+			<Facilities />
 		</>
 	);
 }

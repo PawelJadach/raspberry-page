@@ -18,7 +18,7 @@ export default function Hero() {
 						damping: 20,
 					}}
 				>
-					<Image alt="Hero image" fill={true} src="/hero-image.jpeg" />
+					<Image alt="Hero image" fill={true} src="/hero-image-min.webp" />
 				</motion.div>
 
 				<div className="absolute top-[64px] left-1/2 translate-x-[-50%] w-full z-10 flex flex-col items-center text-white">
