@@ -18,10 +18,10 @@ export default function Hero() {
 						damping: 20,
 					}}
 				>
-					<Image alt="Hero image" fill={true} src="/hero-image-min.webp" />
+					<Image alt="Hero image" style={{ objectFit: "cover" }} fill={true} src="/hero-image-min.webp" />
 				</motion.div>
 
-				<div className="absolute top-[64px] left-1/2 translate-x-[-50%] w-full z-10 flex flex-col items-center text-white">
+				<div className="absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] w-full z-10 flex flex-col items-center text-white">
 					<motion.div
 						initial={{ scale: 0, opacity: 0 }}
 						animate={{ opacity: 1, scale: 1 }}
