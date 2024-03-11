@@ -14,7 +14,7 @@ const item = {
 			duration: 1,
 		},
 	}),
-	hidden: { opacity: 0, x: -200 },
+	hidden: { opacity: 0, x: -100 },
 };
 
 export default function Contact() {

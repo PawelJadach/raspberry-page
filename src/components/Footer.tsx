@@ -120,7 +120,7 @@ export default function Footer() {
 					</defs>
 				</svg>
 				<SocialMediaIcons />
-				<p>+48 664 769 936 / miodmalina.istebna@gmail.com / Jasnowice 2024, 43-470 Istebna</p>
+				<p className="px-4 text-center">+48 664 769 936 / miodmalina.istebna@gmail.com / Jasnowice 2024, 43-470 Istebna</p>
 				<p>Miód Malina © 2024 </p>
 			</motion.div>
 		</footer>

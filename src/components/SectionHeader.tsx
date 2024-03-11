@@ -20,7 +20,7 @@ export default function SectionHeader({ header, subheader }: SectionHeaderProps)
 					delay: 0.2,
 				}}
 				viewport={{ once: true }}
-				className="font-serif text-6xl md:text-8xl uppercase text-center whitespace-normal md:whitespace-nowrap tracking-wide"
+				className="font-serif text-4xl md:text-8xl uppercase text-center whitespace-normal md:whitespace-nowrap tracking-wide"
 			>
 				{header}
 			</motion.h1>
