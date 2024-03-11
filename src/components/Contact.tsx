@@ -17,7 +17,7 @@ const item = {
 	hidden: { opacity: 0, x: -200 },
 };
 
-export default function Cotnact() {
+export default function Contact() {
 	return (
 		<div className="px-2 py-20 md:p-32 bg-[#F4F4F4]">
 			<SectionHeader header="Kontakt" subheader="Pozostańmy w kontakcie..." />

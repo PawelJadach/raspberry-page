@@ -1,7 +1,8 @@
 import About from "@/components/About";
 import Attractions from "@/components/Attractions";
-import Cotnact from "@/components/Contact";
+import Contact from "@/components/Contact";
 import Facilities from "@/components/Facilities";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 
 export default function Home() {
@@ -11,7 +12,8 @@ export default function Home() {
 			<About />
 			<Attractions />
 			<Facilities />
-			<Cotnact />
+			<Contact />
+			<Footer />
 		</>
 	);
 }
