@@ -46,7 +46,7 @@ export default function SectionHeader({ header, subheader }: SectionHeaderProps)
 					delay: 0.5,
 				}}
 				viewport={{ once: true }}
-				initial={{ translateX: 500, opacity: 0 }}
+				initial={{ translateX: 100, opacity: 0 }}
 				whileInView={{ translateX: 0, opacity: 1 }}
 				className="w-[120px] h-[1px] bg-yellow mx-auto mt-8"
 			/>
