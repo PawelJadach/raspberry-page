@@ -14,7 +14,7 @@ const item = {
 		opacity: 1,
 		scale: 1,
 		transition: {
-			delay: 1.5 + i * 0.2,
+			delay: i * 0.2,
 			ease: "easeOut",
 			duration: 1,
 		},

@@ -17,7 +17,7 @@ export default function SectionHeader({ header, subheader }: SectionHeaderProps)
 					type: "spring",
 					stiffness: 100,
 					damping: 20,
-					delay: 0.6,
+					delay: 0.2,
 				}}
 				viewport={{ once: true }}
 				className="font-serif text-6xl md:text-8xl uppercase text-center whitespace-normal md:whitespace-nowrap tracking-wide"
@@ -31,7 +31,7 @@ export default function SectionHeader({ header, subheader }: SectionHeaderProps)
 					type: "spring",
 					stiffness: 100,
 					damping: 20,
-					delay: 0.8,
+					delay: 0.4,
 				}}
 				viewport={{ once: true }}
 				className="text-[16px] uppercase text-center whitespace-normal md:whitespace-nowrap tracking-wide mt-2"
@@ -43,7 +43,7 @@ export default function SectionHeader({ header, subheader }: SectionHeaderProps)
 					type: "spring",
 					stiffness: 100,
 					damping: 20,
-					delay: 1,
+					delay: 0.5,
 				}}
 				viewport={{ once: true }}
 				initial={{ translateX: 500, opacity: 0 }}

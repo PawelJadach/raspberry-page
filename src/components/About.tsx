@@ -13,7 +13,7 @@ export default function About() {
 					type: "spring",
 					stiffness: 100,
 					damping: 20,
-					delay: 1.2,
+					delay: 0.8,
 				}}
 				viewport={{ once: true }}
 				initial={{ opacity: 0 }}

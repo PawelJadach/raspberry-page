@@ -1,11 +1,23 @@
 "use client";
 import React from "react";
 import SocialMediaIcons from "./SocialMediaIcons";
+import { motion } from "framer-motion";
 
 export default function Footer() {
 	return (
 		<footer className="py-10 md:p-12">
-			<div className="flex flex-col justify-center items-center mt-12 gap-8">
+			<motion.div
+				transition={{
+					type: "spring",
+					stiffness: 100,
+					damping: 20,
+					delay: 0.2,
+				}}
+				initial={{ opacity: 0, x: -100 }}
+				whileInView={{ opacity: 1, x: 0 }}
+				viewport={{ once: true }}
+				className="flex flex-col justify-center items-center mt-12 gap-8"
+			>
 				<svg width="217" height="114" viewBox="0 0 217 114" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<g clip-path="url(#clip0_14_4606)">
 						<mask id="mask0_14_4606" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x="78" y="0" width="61" height="62">
@@ -107,11 +119,10 @@ export default function Footer() {
 						</clipPath>
 					</defs>
 				</svg>
-
 				<SocialMediaIcons />
 				<p>+48 664 769 936 / miodmalina.istebna@gmail.com / Jasnowice 2024, 43-470 Istebna</p>
 				<p>Miód Malina © 2024 </p>
-			</div>
+			</motion.div>
 		</footer>
 	);
 }
