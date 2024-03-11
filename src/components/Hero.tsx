@@ -46,9 +46,15 @@ export default function Hero() {
 							className="flex gap-[16px] text-base overflow-hidden"
 						>
 							<li>Strona główna</li>
-							<li>O nas</li>
-							<li>Atrakcje</li>
-							<li>Udogodnienia</li>
+							<li>
+								<a href="#about">O nas</a>
+							</li>
+							<li>
+								<a href="#attractions">Atrakcje</a>
+							</li>
+							<li>
+								<a href="#facilities">Udogodnienia</a>
+							</li>
 						</motion.ul>
 					</nav>
 					<div className="mt-[128px] flex flex-col gap-[20px] items-center">

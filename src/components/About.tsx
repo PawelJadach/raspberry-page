@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export default function About() {
 	return (
-		<div className="px-2 py-20 md:p-32">
+		<div className="px-2 py-20 md:p-32" id="about">
 			<SectionHeader header="O nas" subheader="TROCHĘ O NAS, DOMKACH I NASZEJ OSADZIE" />
 			<motion.p
 				transition={{

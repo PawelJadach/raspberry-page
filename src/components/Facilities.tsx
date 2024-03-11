@@ -73,7 +73,7 @@ const facilitiesData = {
 
 export default function Facilities() {
 	return (
-		<div className="px-2 py-20 md:p-32">
+		<div className="px-2 py-20 md:p-32" id="facilities">
 			<SectionHeader header="Udogodnienia" subheader="Czekają na was..." />
 			<motion.h3
 				initial={{ translateX: 100, opacity: 0 }}
