@@ -1,17 +1,41 @@
-## Getting Started
+# Website for holiday homes
 
-First, run the development server:
+A simple animated business card page.
+[Link to the figma project](<https://www.figma.com/file/HEBvGSaR3J9Tj2EZ3wqjk7/Landing-Page-for-Holiday-Resort-(Community)?type=design&node-id=1-427&mode=design&t=qhs5hEpalDXr8yMr-0>)
+
+## Demo
+
+https://raspberry-page.vercel.app/
+
+## Tech Stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6)
+![NextJS](https://img.shields.io/badge/NextJS-000000)
+![Framer Motion](https://img.shields.io/badge/Framer%20Motion-ED3BB4)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38BDF8)
+
+## Run Locally
+
+Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/PawelJadach/raspberry-page.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory
 
-[Design](<https://www.figma.com/file/HEBvGSaR3J9Tj2EZ3wqjk7/Landing-Page-for-Holiday-Resort-(Community)?type=design&node-id=0-1&mode=design&t=aPxfTVDQaDKwQ5s0-0>)
+```bash
+  cd raspberry-page
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the dev server
+
+```bash
+  npm run dev
+```

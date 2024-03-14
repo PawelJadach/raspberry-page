@@ -1,27 +1,15 @@
-"use client";
 import React from "react";
-import SectionHeader from "./SectionHeader";
-import { data } from "@/data/data";
-import { motion } from "framer-motion";
+import SectionHeader from "./ui/SectionHeader";
+import { about } from "@/data/data";
+import AboutText from "./ui/about/AboutText";
 
 export default function About() {
+	const { header, subheader } = about;
+
 	return (
 		<div className="px-2 py-20 md:p-32" id="about">
-			<SectionHeader header="O nas" subheader="TROCHĘ O NAS, DOMKACH I NASZEJ OSADZIE" />
-			<motion.p
-				transition={{
-					type: "spring",
-					stiffness: 100,
-					damping: 20,
-					delay: 0.8,
-				}}
-				viewport={{ once: true }}
-				initial={{ opacity: 0 }}
-				whileInView={{ opacity: 1 }}
-				className="max-w-[600px] text-center mx-auto mt-[32px]"
-			>
-				{data.about.text}
-			</motion.p>
+			<SectionHeader header={header} subheader={subheader} />
+			<AboutText />
 		</div>
 	);
 }

@@ -1,12 +1,9 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import { hero } from "@/data/data";
 
-type H1Props = {
-	text: string;
-};
-
-export default function H1({ text }: H1Props) {
+export default function HeroHeader() {
 	return (
 		<motion.h1
 			initial={{ translateY: 100, opacity: 0 }}
@@ -20,7 +17,7 @@ export default function H1({ text }: H1Props) {
 			viewport={{ once: true }}
 			className="font-serif text-6xl md:text-8xl uppercase text-center whitespace-normal md:whitespace-nowrap tracking-wide"
 		>
-			{text}
+			{hero.header}
 		</motion.h1>
 	);
 }
